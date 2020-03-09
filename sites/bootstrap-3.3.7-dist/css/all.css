@@ -1,0 +1,15 @@
+@import 'estilo.css';
+@import 'logo.css';
+@import 'menu-nav.css';
+@import 'fullbanner.css';
+@import 'footer.css';
+
+
+@import 'buttons.css';
+
+/* página RESTAURANTES */
+@import 'restaurante.css';
+/* página Sobre */
+@import 'sobre.css';
+/* página Pro */
+@import 'pagaeu.css';

@@ -1,0 +1,25 @@
+/*--- Logo PB ----- */
+.logo-pb{
+  width: auto;
+  height: 55px;
+  float:  left;
+  vertical-align: middle; 
+}
+
+.logo-pb>img{
+  float:  left;
+  margin: 0px;
+  height: 60%;
+  vertical-align: middle;
+}
+
+.logo-pb >a >li{
+  vertical-align: middle;
+  list-style: none;
+  color: #fff;
+  font-size: 2.5rem;
+  margin-top: 15px;
+  margin-left: 5px;
+  display: inline;
+}
+/*--- fim Logo PB ----- */

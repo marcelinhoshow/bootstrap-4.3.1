@@ -1,0 +1,436 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 1050px;
+  padding: 5 20 5 20px;
+  vertical-align: middle;
+  
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;  
+        padding: 5 20 5 20px;
+        vertical-align: middle;
+    }
+}
+
+
+.body{
+
+  position: relative;
+  padding-bottom: 300px;
+ 
+}
+/* mapa */
+  #map {
+    height: 85%;
+}
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 300px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+      #target {
+        width: 345px;
+      }
+#searchInput {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 50%;
+}
+#searchInput:focus {
+    border-color: #4d90fe;
+}
+
+/* fim mapa */
+
+/* Contato */
+.formContato {
+   width: 100%;  
+}  
+.formContato input {  
+   width: 90%;  
+   margin-left: 10px;  
+   margin-right: 10px;  
+}  
+.formContato textarea {  
+   width: 90%;  
+   margin-left: 10px;  
+   margin-right: 10px;  
+}  
+.botaoContato {  
+   margin-left: 10px;  
+   margin-right: 10px;  
+   margin-top: 1px;  
+}  
+.pgContato input {  
+   padding-left: 20px;  
+   color: #292929;  
+   font-size: 18px;  
+   background-color: #E9E9E9;  
+   border: 1px solid #E9E9E9;  
+   -moz-border-radius: 5px;  
+   -webkit-border-radius: 5px;  
+   border-radius: 5px;  
+   height: 40px;  
+   margin-bottom: 20px;  
+   border-bottom: 1px solid #ccc;  
+   border-left: 1px solid #ccc;  
+}  
+.pgContato textarea {  
+   padding-left: 20px;  
+   color: #292929;  
+   font-size: 18px;  
+   background-color: #E9E9E9;  
+   border: 1px solid #E9E9E9;  
+   -moz-border-radius: 5px;  
+   -webkit-border-radius: 5px;  
+   border-radius: 5px;  
+   height: 200px;  
+   margin-bottom: 20px;  
+   border-bottom: 1px solid #ccc;  
+   border-left: 1px solid #ccc;  
+}  
+.botaoContato {  
+   border-radius: 4px;  
+   color: #fff;  
+   padding: 2px 40px;  
+   height: 40px;  
+   margin-top: 18px;  
+   opacity: 0.9;  
+   margin-bottom: 20px;  
+   cursor: pointer;  
+   background: #B22222;  
+   display: inline-block;  
+   border: none;  
+   border-bottom: 1px solid #500707;  
+   border-right: 1px solid #500707;  
+}  
+.botaoContato:hover {  
+   opacity: 1.0;  
+   transition: 1s;  
+}
+/* Fim Contato */
+
+
+
+/* checbox */
+.dropdown-menu > li > .dropdown-menu-item {
+   clear: both;
+    color: #333;
+    display: block;
+    padding: 3px 20px;
+    white-space: nowrap;
+    margin: 5px 0;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -moz-user-select: none;
+    user-select: none;
+}
+.dropdown-menu > li:hover .dropdown-menu-item,
+.dropdown-menu > li:focus .dropdown-menu-item{
+    background-color: #f5f5f5;
+    color: #262625;
+}
+.dropdown-menu > li > .dropdown-menu-item.checkbox {
+    margin: 0;
+    font-weight: normal;
+}
+.dropdown-menu > li > .dropdown-menu-item.checkbox input {
+    display: none;
+}
+.btn-default {
+    color: #333;
+    background-color: #e3e3e3;
+    border-color: #ccc;
+}
+/* Fim checbox */
+.sociais-icon{
+  float: right;
+  margin: 0px 10px 10px 0px;
+}
+.social-icon{
+  float: left;
+  margin: 5px;
+}
+
+.social-icon >img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+#youtube-social >img{
+    height: 38px;
+    margin-top: -4px;
+    width: auto;
+}
+#twitter-social >img{
+    height: 33px;
+    margin-top: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-sm-7 {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*login*/
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#d14836;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#D15E49;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+/*Fim do login*/
+
+.divEstilizada{
+  display:block;
+  width:100px;
+  height:100px;
+  background-color:black;
+}
+
+
+
+
+
+.list-group-item:hover {
+    transition: 0.3s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(250, 250, 250, 1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    background-color: #e2e2e2;
+}
+
+
+.expandir, .reduzir {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.expandir {
+  background-image: url(imagens/Coracao.png);
+}
+.reduzir {
+  background-image: url(imagens/Coracao-branco.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .jumbotron {
+      background-color: black;
+      color: #fff;
+      width: 100%;
+      padding: 15.3% 5%;
+  }
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:100%;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-widt
+
+    h: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+
+
+
+
+
+/* Jumbotron */
+.jumbotron {
+font-size:  rgba(250, 250, 250, 1);
+height: 100%;
+width: 100%;
+}
+.sombra{
+  font-size:  rgba(250, 250, 250, 1);
+  text-shadow: 4px 4px 4px #000000;
+}
+@media only .sombra and (max-width: 959px) {
+    h1{
+        font-size: 10px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only .sombra and (min-width: 768px) and (max-width: 959px) {
+    h1{
+        font-size: 12px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only .sombra and (max-width: 767px) {
+    h1{
+        font-size: 14px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only .sombra and (min-width: 480px) and (max-width: 767px) {
+    h1{
+        font-size: 9px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only .sombra and (max-width: 479px) {
+    h1{
+        font-size: 7px;
+    }
+}
+/* Fim Jumbotron */
+
+
+
+/* Ajuda */
+
+/*  Fim Ajuda */

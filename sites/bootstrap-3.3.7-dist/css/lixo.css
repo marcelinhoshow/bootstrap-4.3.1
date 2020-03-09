@@ -1,0 +1,36 @@
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	
+  background-color: #717171;
+}
+
+
+.mySlides {display: none}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.container {
+  width: 1050px;
+  padding: 5 20 5 20px;
+  vertical-align: middle;
+
+}
+
+.container-fluid {
+  padding: 5 20 5 20px;
+}
